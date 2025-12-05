@@ -6,6 +6,14 @@
   color: #fff;
 }
 
+.result-icon {
+  width: 100px;
+  height: 100px;
+  background-image: url('pentagone.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .results h2 {
   font-size: 28px;
   margin-bottom: 20px;
