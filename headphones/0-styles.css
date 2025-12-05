@@ -13,15 +13,17 @@
 
 body {
   font-family: var;
-  color: #22;
-  background-color: #ff;
+  color: #222;
+  background-color: #fff;
 }
 
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 20px;
-}.header {
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
