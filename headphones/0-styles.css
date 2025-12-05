@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-  background-image: url('headphomes_heros_1.png'); /* adjust path */
+  background-image: url('headphones_hero_1.jpg'); /* adjust path */
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
@@ -82,7 +82,7 @@ body {
   }
 
   .hero {
-    background-image: url('headphones_heros_1.jpg'); /* adjust path */
+    background-image: url('headphones_hero_1.jpg'); /* adjust path */
     text-align: center;
     padding: 60px 20px;
   }
