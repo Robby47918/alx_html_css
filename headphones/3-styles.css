@@ -1,0 +1,86 @@
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+/* Form layout */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+/* Button */
+.cta {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.cta:hover,
+.cta:active {
+  opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer .logo {
+  font-family: var(--font-display);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
