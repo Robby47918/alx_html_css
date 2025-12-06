@@ -1,0 +1,120 @@
+:root {
+  --color-primary: #ff6565;
+  --color-bg-dark: #111;
+  --color-text: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #ff6565, #ff9999);
+  color: white;
+}
+
+/* Services */
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.service-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  animation: bounce 3s infinite;
+}
+
+.service-item:hover {
+  transform: scale(1.1) rotate(3deg);
+  opacity: 0.9;
+}
+
+/* Results */
+.results {
+  padding: 60px 20px;
+  text-align: center;
+  background: var(--color-bg-dark);
+  color: var(--color-text);
+}
+
+.result-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.result-item {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  animation: pulse 2s infinite;
+}
+
+.result-item:hover {
+  transform: scale(1.2) rotate(-5deg);
+  opacity: 0.8;
+}
+
+.result-icon {
+  width: 100px;
+  height: 100px;
+  background: var(--color-primary);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto 10px;
+}
+
+/* Animations */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Contact */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: var(--color-primary);
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: white;
+}
